@@ -6,6 +6,25 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
+Route::post('/', function(){
+	// return 'Yea...you shortened it!!!';
+	// dd($_POST);
+	// return Input::get('url');
+	// return Input::all();
+
+	$url = Input::get('url');
+
+	// validate url
+
+	// what if url already exists return
+
+	// Otherwise add a new row and return shortened url
+
+	// create results view and present the url to the user
+
+
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
